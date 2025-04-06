@@ -30,7 +30,7 @@ function sendMessage() {
     setTimeout(() => {
         let botMessage = document.createElement("p");
         botMessage.classList.add("bot-message");
-        botMessage.innerHTML = `Just die lil bro💀🙏`;
+        botMessage.innerHTML = `Hello How can i Help you?`;
         chatBox.appendChild(botMessage);
 
         // Scroll again after bot response
